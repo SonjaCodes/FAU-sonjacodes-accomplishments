@@ -21,15 +21,29 @@ h1 {
   color: var(--sonjacodes-brand-color);
   margin: 0 auto;
   padding: 25px;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.styled-container {
+  margin-top: 30px;
 }
 
 img {
   border-radius: 5px;
-  margin-top: 25px;
+}
+
+p {
+  background-color: white;
+  border-radius: 5px;
+  color: gray;
+  font-weight: bold;
+  margin-top: 5px;
+  padding: 5px;
 }
 
 footer {
-  color: var(--sonjacodes-brand-color);
+  color: var(--sonjacodes-brand-color-secondary);
   font-size: 12px;
   margin: 0 auto;
   padding: 5px;
