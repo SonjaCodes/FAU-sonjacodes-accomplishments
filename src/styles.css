@@ -12,17 +12,22 @@ body {
   background-color: var(--sonjacodes-brand-color-secondary);
   border-radius: 5px;
   margin: 10px auto;
-  min-height: 600px;
-  min-width: 960px;
+  width: 960px;
   padding: 25px;
+}
+
+.container-footer {
+  background-color: black;
+  padding: 5px;
 }
 
 h1 {
   color: var(--sonjacodes-brand-color);
+  line-height: 45px;
   margin: 0 auto;
   padding: 25px;
   text-decoration: underline;
-  text-underline-offset: 15px;
+  text-underline-offset: 10px;
 }
 
 .styled-container {
@@ -45,7 +50,6 @@ p {
 footer {
   color: var(--sonjacodes-brand-color-secondary);
   font-size: 12px;
-  margin: 0 auto;
   padding: 5px;
 }
 
@@ -59,4 +63,10 @@ footer a:hover {
   background-color: var(--sonjacodes-brand-color-secondary);
   border-radius: 2px;
   padding: 2px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 360px;
+  }
 }
